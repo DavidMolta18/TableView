@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tabla" layoutX="2.0" layoutY="-1.0" prefHeight="240.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <TextField fx:id="pedidoTF" layoutX="48.0" layoutY="289.0" promptText="Pedido" />
+      <TextField fx:id="precioTF" layoutX="216.0" layoutY="289.0" promptText="Precio" />
+      <TextField fx:id="direccionTF" layoutX="389.0" layoutY="289.0" promptText="Dirección" />
+      <Label layoutX="239.0" layoutY="247.0" text="Datos del domicilio" />
+      <Button fx:id="registrarBtn" layoutX="261.0" layoutY="342.0" mnemonicParsing="false" text="Registrar" />
+   </children>
+</AnchorPane>
