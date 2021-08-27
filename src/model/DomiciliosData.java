@@ -2,16 +2,19 @@ package model;
 
 import java.util.ArrayList;
 
-public class DomiciliosData {
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
+public class DomiciliosData {
+	private ObservableList<Domicilios> domicilios;
 	public DomiciliosData() {
-		domicilios = new ArrayList<>();
+		domicilios = FXCollections.observableArrayList();
 
 	}
 
-	private ArrayList<Domicilios> domicilios;
+	
 
-	public ArrayList<Domicilios> getData() {
+	public ObservableList<Domicilios> getData() {
 
 		return domicilios;
 	}
